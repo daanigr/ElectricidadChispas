@@ -1,7 +1,7 @@
 public class Autonomo implements Cliente{
 
 
-    private Integer codigoCliente;
+    private String codigoCliente;
     private String nombre;
     private String apellidos;
     private String dni;
@@ -29,17 +29,17 @@ public class Autonomo implements Cliente{
     }
 
     @Override
-    public Integer getCodigoCliente() {
-        return codigoCliente;
+    public String getCodigoCliente() {
+        return this.codigoCliente;
     }
 
-    public void setCodigoCliente(Integer codigoCliente) {
+    public void setCodigoCliente(String codigoCliente) {
         this.codigoCliente = codigoCliente;
     }
 
     @Override
     public String getNombre() {
-        return nombre;
+        return this.nombre + " " + this.apellidos;
     }
 
     public void setNombre(String nombre) {
@@ -48,7 +48,7 @@ public class Autonomo implements Cliente{
 
     @Override
     public String getDireccion() {
-        return direccion;
+        return this.direccion;
     }
 
     public void setDireccion(String direccion) {
@@ -57,7 +57,7 @@ public class Autonomo implements Cliente{
 
     @Override
     public String getPoblacion() {
-        return poblacion;
+        return this.poblacion;
     }
 
     public void setPoblacion(String poblacion) {
@@ -67,7 +67,7 @@ public class Autonomo implements Cliente{
 
     @Override
     public String getProvincia() {
-        return provincia;
+        return this.provincia;
     }
 
     public void setProvincia(String provincia) {
@@ -76,7 +76,7 @@ public class Autonomo implements Cliente{
 
     @Override
     public String getEmail() {
-        return email;
+        return this.email;
     }
 
     public void setEmail(String email) {
@@ -85,7 +85,7 @@ public class Autonomo implements Cliente{
 
     @Override
     public String getTelefono() {
-        return telefono;
+        return this.telefono;
     }
 
     public void setTelefono(String telefono) {

@@ -1,6 +1,6 @@
 public interface Cliente {
 
-    public Integer getCodigoCliente();
+    public String getCodigoCliente();
 
     public String getNombre();
 

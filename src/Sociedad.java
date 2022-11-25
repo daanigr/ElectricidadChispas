@@ -1,6 +1,6 @@
 public class Sociedad implements Cliente{
 
-    private Integer codigoCliente;
+    private String codigoCliente;
     private String razonSocial;
     private String cif;
     private String direccion;
@@ -9,12 +9,8 @@ public class Sociedad implements Cliente{
     private String email;
     private String telefono;
 
-    public void setCodigoCliente(Integer codigoCliente) {
+    public void setCodigoCliente(String codigoCliente) {
         this.codigoCliente = codigoCliente;
-    }
-
-    public String getRazonSocial() {
-        return razonSocial;
     }
 
     public void setRazonSocial(String razonSocial) {
@@ -50,7 +46,7 @@ public class Sociedad implements Cliente{
     }
 
     @Override
-    public Integer getCodigoCliente() {
+    public String getCodigoCliente() {
         return codigoCliente;
     }
 
