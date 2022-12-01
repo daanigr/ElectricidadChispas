@@ -1,3 +1,5 @@
+package domain.models;
+
 public interface Cliente {
 
     public String getCodigoCliente();

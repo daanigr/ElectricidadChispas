@@ -1,4 +1,6 @@
-public class Producto implements LineaDeVentas{
+package domain.models;
+
+public class Producto implements LineaDeVentas {
 
     private String codigoProducto;
     private String nombreProducto;

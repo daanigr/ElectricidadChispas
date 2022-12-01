@@ -1,4 +1,6 @@
-public class Autonomo implements Cliente{
+package domain.models;
+
+public class Autonomo implements Cliente {
 
 
     private String codigoCliente;

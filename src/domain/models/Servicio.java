@@ -1,3 +1,7 @@
+package domain.models;
+
+import domain.models.LineaDeVentas;
+
 public class Servicio implements LineaDeVentas {
 
     private String codigoServicio;

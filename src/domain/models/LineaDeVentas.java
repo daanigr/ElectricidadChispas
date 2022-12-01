@@ -1,3 +1,5 @@
+package domain.models;
+
 public interface LineaDeVentas {
 
     public String getCodigo();

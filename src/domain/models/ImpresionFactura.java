@@ -1,3 +1,7 @@
+package domain.models;
+
+import domain.models.Factura;
+
 public class ImpresionFactura {
 
     public static void print(Factura facturaAutonomo){

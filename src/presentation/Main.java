@@ -1,10 +1,15 @@
+package presentation;
+
+import domain.models.Autonomo;
+import domain.models.Producto;
+
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        //Autonomo
+        //domain.models.Autonomo
         Autonomo autonomo = new Autonomo();
 
         System.out.println("-----HOJA AUTONOMO-----");
@@ -29,7 +34,7 @@ public class Main {
 
 
 
-        //Sociedad
+        //domain.models.Sociedad
         Sociedad sociedad = new Sociedad();
 
         System.out.println("-----HOJA SOCIEDAD-----");

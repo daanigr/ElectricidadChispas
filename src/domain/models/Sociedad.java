@@ -1,4 +1,8 @@
-public class Sociedad implements Cliente{
+package domain.models;
+
+import domain.models.Cliente;
+
+public class Sociedad implements Cliente {
 
     private String codigoCliente;
     private String razonSocial;
