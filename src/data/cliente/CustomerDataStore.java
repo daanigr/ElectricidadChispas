@@ -1,4 +1,4 @@
-package data;
+package data.cliente;
 
 public interface CustomerDataStore {
 

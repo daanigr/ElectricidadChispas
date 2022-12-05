@@ -1,9 +1,8 @@
-package data;
+package data.facturas;
 
 import java.util.List;
-import java.util.Map;
 
-public class MemCustomerDataStore implements  CustomerDataStore{
+public class MemCustomerDataStore implements CustomerDataStore {
 
     private TreeMap<String, Cliente> dataStore = new TreeMap<String, Cliente>();
 
